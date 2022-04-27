@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BidirectionalObserver", "BidirectionalObserver\BidirectionalObserver.csproj", "{BEB751CE-154A-4BA9-AC3C-E2A2C69BA3F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.Events", "Observer.Events\Observer.Events.csproj", "{59542F22-37F2-4B73-B6B8-B998978F0CCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeakEventPattern", "WeakEventPattern\WeakEventPattern.csproj", "{CC412D3B-B3A1-4BE0-BDD4-E19519185706}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverInterfaces", "ObserverInterfaces\ObserverInterfaces.csproj", "{C3726C0C-EDC9-42F8-9DCC-B6604F12DD37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverCollections", "ObserverCollections\ObserverCollections.csproj", "{6F4AED38-D8BF-467C-A8CC-140670365F1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyDependencies", "PropertyDependencies\PropertyDependencies.csproj", "{D8695AC6-CADC-4A31-B510-29F3241A0644}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEB751CE-154A-4BA9-AC3C-E2A2C69BA3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB751CE-154A-4BA9-AC3C-E2A2C69BA3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB751CE-154A-4BA9-AC3C-E2A2C69BA3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB751CE-154A-4BA9-AC3C-E2A2C69BA3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59542F22-37F2-4B73-B6B8-B998978F0CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59542F22-37F2-4B73-B6B8-B998978F0CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59542F22-37F2-4B73-B6B8-B998978F0CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59542F22-37F2-4B73-B6B8-B998978F0CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC412D3B-B3A1-4BE0-BDD4-E19519185706}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC412D3B-B3A1-4BE0-BDD4-E19519185706}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC412D3B-B3A1-4BE0-BDD4-E19519185706}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC412D3B-B3A1-4BE0-BDD4-E19519185706}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3726C0C-EDC9-42F8-9DCC-B6604F12DD37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3726C0C-EDC9-42F8-9DCC-B6604F12DD37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3726C0C-EDC9-42F8-9DCC-B6604F12DD37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3726C0C-EDC9-42F8-9DCC-B6604F12DD37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4AED38-D8BF-467C-A8CC-140670365F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4AED38-D8BF-467C-A8CC-140670365F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4AED38-D8BF-467C-A8CC-140670365F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4AED38-D8BF-467C-A8CC-140670365F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8695AC6-CADC-4A31-B510-29F3241A0644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8695AC6-CADC-4A31-B510-29F3241A0644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8695AC6-CADC-4A31-B510-29F3241A0644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8695AC6-CADC-4A31-B510-29F3241A0644}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71D75E87-5131-49B5-83D7-21C98A412383}
+	EndGlobalSection
+EndGlobal
